@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Root from 'Root'
 import App from 'components/App'
-import reducers from 'reducers'
 
 ReactDom.render(
   <Root>
