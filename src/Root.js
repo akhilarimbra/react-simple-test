@@ -11,7 +11,7 @@ export default ({ children, initialState }) => {
     initialState,
     applyMiddleware(reduxPromise)
   )
-  
+
   return (
     <Provider store={store}>
       { children }

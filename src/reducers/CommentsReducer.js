@@ -8,6 +8,6 @@ export default function(state = [], action) {
       const comments = action.payload.data.map(comment => comment.name)
       return [...state, ...comments]
     default:
-      return state;
+      return state
   }
 }
